@@ -18,7 +18,6 @@ body{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: black;
-    background: linear-gradient(to bottom right, rgba(255,255,255,0.5), rgba(255,255,255,0.5));
 }
 
 .wrap a{
