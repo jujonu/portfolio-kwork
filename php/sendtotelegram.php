@@ -1,3 +1,4 @@
+<?php
 /*получаем значения полей из формы*/
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -28,3 +29,4 @@ $token = "5872997735:AAG_NYsvoulWQYPVPiSAQM_PyxDe79NZRHI";
 $chat_id = "-556419432";
 /*делаем запрос и отправляем сообщение*/
 parser("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$message}");
+?>
